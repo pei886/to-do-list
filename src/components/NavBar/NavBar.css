@@ -1,0 +1,39 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(224, 66%, 7%);
+}
+
+nav :active{
+    color: #FFFBE9;
+}
+
+nav .title{
+    font-size: 1.5rem;
+    margin: 1re;
+    color: #FFFBE9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    display: block;
+    color: #FFFBE9;
+    padding: 0.9rem;
+    margin: 0 0.9rem;
+    border-radius: 0.5rem;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    background-color: #172554;
+}
